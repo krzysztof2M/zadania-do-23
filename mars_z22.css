@@ -1,0 +1,15 @@
+
+p {
+color: red;
+font-size: 22pt;
+}
+p#gruby_marszalec { 
+color: green;
+font-size: 17pt;
+font-weight: 900;
+}
+p#dlawszystkich_marszalec {
+color: yellow;
+font-size: 10pt;
+font-family: Arial;
+}

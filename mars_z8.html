@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="pl-PL">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+	<title>Wewnętrzny arkusz stylów</title>
+	
+	<style>
+	@import url("mars_z8.css");
+	</style>
+</head>
+<body>
+	<ol>
+		<h1><li>
+		gdzie jest wstawiany
+		</li></h1>
+		<p>
+			Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &lthead> a
+			&lt/head>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,
+			występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż
+			domyślne).
+		</p>
+		
+		<h1><li>
+		składnia teoretyczna (w ramce, konieczne wcięcia)
+		</li></h1>
+		<p>
+			<table border=1><td>
+			
+			&lthead> <br>
+			&nbsp;&nbsp;&nbsp;	&ltstyle type="text/css"> <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		selektor1 { cecha: wartość; cecha2: wartość2... } <br> 
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		selektor2 { cecha: wartość; cecha2: wartość2... } <br> 
+			&nbsp;&nbsp;&nbsp;		&lt/style> <br>
+			&lt/head>
+
+			</td></table>
+		</p>
+		
+	
+		<h1><li>
+		jakie mogą być selektory,
+		</li></h1>
+		<p>
+			Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+			tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+			znacznikami, nadajemy atrybuty formatowania opisane w arkuszu
+		</p>
+		
+		<h1><li>
+		jakie mogą być cechy i wartości.
+		</li></h1>
+		<p>
+			Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+			formatowania nam chodzi (opisane w kolejnych rozdziałach).
+			Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+			Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy
+			rozdzielone średnikami.
+
+		</p>
+	</ol>
+	
+</body>
+</html>

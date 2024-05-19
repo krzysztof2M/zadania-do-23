@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <html lang="pl-PL">
+<html>
+<head>
+	<meta charset="utf-8">
+	<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+	<title> Selektor DIV oraz SPAN. </title>
+	
+	<style>    
+       p{font-family:arial;}
+	
+	
+    </style> 
+</head>
+<body>
+	
+    <ol>
+    <li><h1>
+        Opis znacznika DIV (jaki to element, składnia w ramce, zastosowanie, opis
+        treotyczny, atrybuty tylko wymień, opisz tylko ALIGN).
+	</h1></li>
+	<p>
+    <table border="1" >
+        <td>&lt;div style="cecha: wartość; cecha2: wartość2..."&gt;...&lt;/div&gt;</td>
+    </table>
+        Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebiezwykły tekst, jak <br>
+        również inne elementy blokowe. Został on pomyślany do tworzeniaobszerniejszych struktur. <br>
+        <b>ALIGN</b>="ustawienie"<br>
+        Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):<br>
+        center - wyśrodkowanie<br>
+        justify - wyrównanie do obu marginesów jednocześnie<br>
+        left - wyrównanie do lewej<br>
+        right - wyrównanie do prawej<br>
+    </p>
+
+	<li><h1>
+        Opis znacznika SPAN (jaki to element, składnia w ramce, zastosowanie, opis treotyczny)
+	</h1></li>
+	<p>
+        <table border="1" >
+            <td>&lt;span style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/span&gt;</td>
+        </table>
+        Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą zawierać<br>
+        elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst.<br>
+        Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do<br>
+        wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf &lt;p&gt; z zasady<br>
+        nie może zawierać elementów blokowych) tylko span.<br>
+        Wewnątrz DIV można oczywiście wpisać również SPAN.<br>
+    </p>
+
+	<li><h1>
+        Różnica między znacznikami DIV i SPAN.
+	</h1></li>
+    <p>
+        Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo<br>
+        na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony.<br>
+        Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe<br>
+        (blokowe elementy, większe fragmenty struktury składające się na układ strony)<br>
+        Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii.<br>
+    </p>
+    
+    <li><h1>
+        Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe
+	</h1></li>
+
+	<p>
+        1)Elementy liniowe (inline elements)<br>
+        
+        Elementy liniowe są wyświetlane w jednej linii z innymi elementami. Nie zaczynają nowej linii i zajmują tylko tyle szerokości, 
+        ile potrzeba do wyświetlenia ich zawartości. Elementy te mogą zawierać tekst oraz inne elementy liniowe, ale nie mogą zawierać elementów blokowych.<br>
+        
+        Przykłady elementów liniowych:<br>
+        
+        &lt;a> - link<br>
+        &lt;span> - ogólny kontener dla treści tekstowej<br>
+        &lt;img> - obraz<br>
+        &lt;strong> - wytłuszczony tekst<br>
+        &lt;i> - kursywa<br>
+        &lt;button> - przycisk<br>
+        &lt;label> - etykieta dla formularza<br><br>
+        2) Elementy blokowe (block elements)<br>
+        
+        Elementy blokowe zaczynają nową linię i rozciągają się na całą szerokość dostępnego miejsca, wypełniając przestrzeń w poziomie w całości. 
+        Mogą zawierać zarówno elementy liniowe, jak i inne elementy blokowe.<br>
+        
+        Przykłady elementów blokowych:<br>
+        
+        &lt;div> - ogólny kontener blokowy<br>
+        &lt;p> - paragraf<br>
+        &lt;h1> do &lt;h6> - nagłówki<br>
+        &lt;ul> - lista nieuporządkowana<br>
+        &lt;ol> - lista uporządkowana<br>
+        &lt;li> - element listy<br>
+        &lt;form> - formularz<br>
+        &lt;table> - tabela<br>
+        &lt;header> - nagłówek sekcji<br><br>
+      
+        3) Elementy blokowo-liniowe (inline-block elements)<br>
+        
+        Elementy blokowo-liniowe zachowują się jak elementy liniowe, ale mają właściwości elementów blokowych. Oznacza to, że mogą być umieszczane 
+        w jednej linii z innymi elementami, ale można do nich stosować właściwości blokowe, takie jak szerokość, wysokość, marginesy i padding.<br>
+        
+        Przykłady elementów blokowo-liniowych:<br>
+        
+        &lt;img> - obraz (domyślnie liniowy, ale często stylizowany jako blokowo-liniowy)<br>
+        &lt;input> - pole formularza<br>
+        &lt;button> - przycisk (w zależności od przeglądarki może być traktowany jako blokowo-liniowy)<br>
+        &lt;textarea> - pole tekstowe formularza<br>
+    </p>
+    </ol>
+
+</body>
+</html>
+<!--Krzysztof Marszalec-->

@@ -1,0 +1,54 @@
+#jeden {
+background-color: #fffdd0;
+width: 100%;
+height: 40%;
+p{
+    color: orange;
+    font-size: 20pt;
+    font-family: arial; 
+}
+}
+
+#dwa {
+    background-color: magenta;
+    width: 80%;
+    height: 15%;
+    i{
+        color: green;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+    strike{
+        color:red;
+        font-size: 20pt;
+    }
+    u{
+        color:purple;
+        font-size: 20pt;
+        text-decoration:overline;
+    }
+}
+
+#trzy{
+    background-color: #b8d632;
+    width: 70%;
+    height: 30%;
+    h1{
+        color: blue;
+        font-size: 30pt;
+        text-decoration: underline;
+    }
+    
+    ol li:nth-child(1) {
+        color: blue;
+        font-size: 25pt;
+      }
+      ol li:nth-child(2) {
+        color: red;
+        font-size: 20pt;
+      }
+      ol li:nth-child(3) {
+        color: grey;
+        font-size: 15pt;
+      }
+}
